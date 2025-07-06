@@ -4,9 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -20,7 +18,6 @@ type Quote = {
 
 export default function page() {
   let [search, setSearch] = useState("");
-  let [res, setRes] = useState(false);
   let [filterData, setFilterData] = useState<Quote[]>([]);
   // Example: Place at the top of your page.tsx
   const quotes = [
