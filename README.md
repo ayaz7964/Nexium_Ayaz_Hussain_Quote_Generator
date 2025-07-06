@@ -32,7 +32,7 @@ yarn
 # or
 pnpm install
 # or
-bun install
+bun install```
 
 src/app/page.tsx
 
