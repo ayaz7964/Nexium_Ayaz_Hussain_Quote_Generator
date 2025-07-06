@@ -17,8 +17,8 @@ type Quote = {
 };
 
 export default function page() {
-  let [search, setSearch] = useState("");
-  let [filterData, setFilterData] = useState<Quote[]>([]);
+  const [search, setSearch] = useState("");
+  const [filterData, setFilterData] = useState<Quote[]>([]);
   // Example: Place at the top of your page.tsx
   const quotes = [
     {
